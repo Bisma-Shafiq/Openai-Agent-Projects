@@ -31,7 +31,7 @@ async def handle_chat_start():
     #step3   config
 
     config = RunConfig(
-        model=model,
+        model=model, 
         model_provider=provider,
         tracing_disabled=True)
 
