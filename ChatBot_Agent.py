@@ -35,7 +35,7 @@ agent = Agent(
 )
 #step5  Run
 result = Runner.run_sync(starting_agent=agent, 
-                         input="tell me about object detection as their code",
+                         input="tell me about Pakistan in 50 words",
                          run_config=config)
 
 print(result.final_output)
